@@ -1,0 +1,31 @@
+body {
+
+  background: rgba(212,212,212,1);
+  background: -moz-linear-gradient(top, rgba(212,212,212,1) 0%, rgba(219,219,219,1) 0%, rgba(247,247,247,0.94) 31%, rgba(247,247,247,0.9) 55%, rgba(247,247,247,0.86) 76%, rgba(204,204,204,0.83) 97%, rgba(204,204,204,0.82) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(212,212,212,1)), color-stop(0%, rgba(219,219,219,1)), color-stop(31%, rgba(247,247,247,0.94)), color-stop(55%, rgba(247,247,247,0.9)), color-stop(76%, rgba(247,247,247,0.86)), color-stop(97%, rgba(204,204,204,0.83)), color-stop(100%, rgba(204,204,204,0.82)));
+  background: -webkit-linear-gradient(top, rgba(212,212,212,1) 0%, rgba(219,219,219,1) 0%, rgba(247,247,247,0.94) 31%, rgba(247,247,247,0.9) 55%, rgba(247,247,247,0.86) 76%, rgba(204,204,204,0.83) 97%, rgba(204,204,204,0.82) 100%);
+  background: -o-linear-gradient(top, rgba(212,212,212,1) 0%, rgba(219,219,219,1) 0%, rgba(247,247,247,0.94) 31%, rgba(247,247,247,0.9) 55%, rgba(247,247,247,0.86) 76%, rgba(204,204,204,0.83) 97%, rgba(204,204,204,0.82) 100%);
+  background: -ms-linear-gradient(top, rgba(212,212,212,1) 0%, rgba(219,219,219,1) 0%, rgba(247,247,247,0.94) 31%, rgba(247,247,247,0.9) 55%, rgba(247,247,247,0.86) 76%, rgba(204,204,204,0.83) 97%, rgba(204,204,204,0.82) 100%);
+  background: linear-gradient(to bottom, rgba(212,212,212,1) 0%, rgba(219,219,219,1) 0%, rgba(247,247,247,0.94) 31%, rgba(247,247,247,0.9) 55%, rgba(247,247,247,0.86) 76%, rgba(204,204,204,0.83) 97%, rgba(204,204,204,0.82) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4d4d4', endColorstr='#cccccc', GradientType=0 );}
+.logo {
+background-image : url(images/logo.png);
+padding : 7%;
+background-repeat : no-repeat;
+background-blend-mode : overlay;
+width : 70px;
+box-shadow : 20px 20px 20px;
+}
+address {
+text-align-last : right;
+vertical-align : text-bottom;}
+.document{
+  background-image : url(images/top-image.png), url(images/bottom-image.png);
+  background-position : top, bottom;
+  background-repeat : no-repeat, no-repeat;
+  background-color : white;
+  background-color:rgba(0,0,0,0);
+  border-bottom : 1px solid red;
+  border-top : 1px solid red;
+  margin : 3px;
+  width:auto;
